@@ -37,7 +37,7 @@ class SettingsRepository(private val context: Context) {
     val settingsFlow: Flow<SettingsState> = context.dataStore.data.map { prefs ->
         SettingsState(
             tableSize = prefs[SettingsKeys.TABLE_SIZE] ?: "5x5",
-            tableMode = prefs[SettingsKeys.TABLE_MODE] ?: "Числа",
+            tableMode = prefs[SettingsKeys.TABLE_MODE] ?: "Цифры",
             tableStyle = prefs[SettingsKeys.TABLE_STYLE] ?: "Классический",
             language = prefs[SettingsKeys.LANGUAGE] ?: "Русский",
             shuffleOnClick = prefs[SettingsKeys.SHUFFLE_ON_CLICK] ?: false,

@@ -3,9 +3,9 @@
   <component name="CodeMarkSettings">
     <option name="lastScanState">
       <map>
-        <entry key="$PROJECT_DIR$/.git/COMMIT_EDITMSG" value="1758669618247" />
+        <entry key="$PROJECT_DIR$/.git/COMMIT_EDITMSG" value="1758669719914" />
         <entry key="$PROJECT_DIR$/.git/HEAD" value="1758669578303" />
-        <entry key="$PROJECT_DIR$/.git/config" value="1758669611966" />
+        <entry key="$PROJECT_DIR$/.git/config" value="1758669820163" />
         <entry key="$PROJECT_DIR$/.git/description" value="1758669578289" />
         <entry key="$PROJECT_DIR$/.git/hooks/applypatch-msg.sample" value="1758669578292" />
         <entry key="$PROJECT_DIR$/.git/hooks/commit-msg.sample" value="1758669578293" />
@@ -21,10 +21,12 @@
         <entry key="$PROJECT_DIR$/.git/hooks/push-to-checkout.sample" value="1758669578299" />
         <entry key="$PROJECT_DIR$/.git/hooks/update.sample" value="1758669578300" />
         <entry key="$PROJECT_DIR$/.git/info/exclude" value="1758669578301" />
-        <entry key="$PROJECT_DIR$/.git/logs/HEAD" value="1758649242141" />
-        <entry key="$PROJECT_DIR$/.git/logs/refs/heads/master" value="1758649242143" />
+        <entry key="$PROJECT_DIR$/.git/logs/HEAD" value="1758669719927" />
+        <entry key="$PROJECT_DIR$/.git/logs/refs/heads/master" value="1758669719928" />
+        <entry key="$PROJECT_DIR$/.git/logs/refs/remotes/github/master" value="1758669820168" />
         <entry key="$PROJECT_DIR$/.git/logs/refs/remotes/origin/master" value="1758649254200" />
-        <entry key="$PROJECT_DIR$/.git/refs/heads/master" value="1758649242139" />
+        <entry key="$PROJECT_DIR$/.git/refs/heads/master" value="1758669719926" />
+        <entry key="$PROJECT_DIR$/.git/refs/remotes/github/master" value="1758669820166" />
         <entry key="$PROJECT_DIR$/.git/refs/remotes/origin/master" value="1758649254198" />
         <entry key="$PROJECT_DIR$/.gitignore" value="1758563435843" />
         <entry key="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" value="1758563445487" />
@@ -42,7 +44,8 @@
         <entry key="$PROJECT_DIR$/.idea/TableMemory.iml" value="1758654167322" />
         <entry key="$PROJECT_DIR$/.idea/assetWizardSettings.xml" value="1758669156901" />
         <entry key="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" value="1758563577603" />
-        <entry key="$PROJECT_DIR$/.idea/codemarks.xml" value="1758669635284" />
+        <entry key="$PROJECT_DIR$/.idea/codemarks.xml" value="1758679966098" />
+        <entry key="$PROJECT_DIR$/.idea/codemarks.xml~" value="1758677113600" />
         <entry key="$PROJECT_DIR$/.idea/compiler.xml" value="1758563577594" />
         <entry key="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" value="1758564517747" />
         <entry key="$PROJECT_DIR$/.idea/gradle.xml" value="1758620988457" />
@@ -52,9 +55,12 @@
         <entry key="$PROJECT_DIR$/.idea/modules.xml" value="1758654167329" />
         <entry key="$PROJECT_DIR$/.idea/runConfigurations.xml" value="1758563442450" />
         <entry key="$PROJECT_DIR$/.idea/vcs.xml" value="1758649226801" />
-        <entry key="$PROJECT_DIR$/.idea/workspace.xml" value="1758669156885" />
+        <entry key="$PROJECT_DIR$/.idea/workspace.xml" value="1758678652277" />
         <entry key="$PROJECT_DIR$/.kotlin/sessions/kotlin-compiler-16467491431584097651.salive" value="1758624731196" />
+        <entry key="$PROJECT_DIR$/.kotlin/sessions/kotlin-compiler-18389035684802396909.salive" value="1758678875477" />
+        <entry key="$PROJECT_DIR$/.kotlin/sessions/kotlin-compiler-2084185766610118750.salive" value="1758677324399" />
         <entry key="$PROJECT_DIR$/.kotlin/sessions/kotlin-compiler-4022007064456374363.salive" value="1758656311210" />
+        <entry key="$PROJECT_DIR$/.kotlin/sessions/kotlin-compiler-6913016450504110215.salive" value="1758678650502" />
         <entry key="$PROJECT_DIR$/.kotlin/sessions/kotlin-compiler-7012926710620301916.salive" value="1758564640343" />
         <entry key="$PROJECT_DIR$/.kotlin/sessions/kotlin-compiler-8015257899170692371.salive" value="1758627694123" />
         <entry key="$PROJECT_DIR$/.kotlin/sessions/kotlin-compiler-8789868677010956325.salive" value="1758639389683" />
@@ -64,7 +70,7 @@
         <entry key="$PROJECT_DIR$/app/build.gradle.kts" value="1758654239073" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" value="1758655099570" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/release/javaPreCompileRelease/annotationProcessors.json" value="1758648986544" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/apk/debug/output-metadata.json" value="1758666146729" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/apk/debug/output-metadata.json" value="1758679912074" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/debug/createDebugApkListingFileRedirect/redirect.txt" value="1758655115864" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/release/createReleaseApkListingFileRedirect/redirect.txt" value="1758649067194" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/app_metadata/debug/writeDebugAppMetadata/app-metadata.properties" value="1758655100983" />
@@ -198,7 +204,7 @@
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yRY4kcX7oOJyfI8YmKV61w==" value="1758655115006" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yxY6WxSm7IwKozP3ASPRYw==" value="1758655115127" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zFpDEo7yQzJuf3kAL7VtKA==" value="1758655115117" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" value="1758666144556" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" value="1758677123107" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-af/values-af.xml" value="1758655098535" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-am/values-am.xml" value="1758655098565" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ar/values-ar.xml" value="1758655098576" />
@@ -286,11 +292,11 @@
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" value="1758655098558" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" value="1758655098554" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zu/values-zu.xml" value="1758655098593" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/values.xml" value="1758666144528" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" value="1758666144636" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" value="1758666144825" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" value="1758666144788" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" value="1758666144826" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/values.xml" value="1758677123068" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" value="1758677123175" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" value="1758677123364" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" value="1758677123342" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" value="1758677123366" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/lintVitalAnalyzeRelease/module.xml" value="1758649055801" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/lintVitalAnalyzeRelease/release-artifact-dependencies.xml" value="1758649055797" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/lintVitalAnalyzeRelease/release-artifact-libraries.xml" value="1758649055800" />
@@ -301,8 +307,8 @@
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" value="1758649006650" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" value="1758648984881" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseShaders/merger.xml" value="1758649006602" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" value="1758666146683" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" value="1758666146728" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" value="1758679912047" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" value="1758677129764" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" value="1758655115817" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" value="1758649066239" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/zip-cache/androidResources" value="1758649067152" />
@@ -515,7 +521,7 @@
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir/values/values.xml" value="1758648986291" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/release/packageReleaseResources/merger.xml" value="1758648986347" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/java_res/release/processReleaseJavaRes/out/kotlin-tooling-metadata.json" value="1758649055863" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/output-metadata.json" value="1758666145967" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/output-metadata.json" value="1758677124903" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/linked_resources_binary_format/release/processReleaseResources/output-metadata.json" value="1758649007982" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/lint-cache/lintVitalAnalyzeRelease/lint-cache-version.txt" value="1758649055806" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/lint-cache/lintVitalAnalyzeRelease/maven.google/androidx/activity/group-index.xml" value="1758649065399" />
@@ -536,18 +542,18 @@
         <entry key="$PROJECT_DIR$/app/build/intermediates/lint_vital_report_lint_model/release/generateReleaseLintVitalReportModel/release-artifact-libraries.xml" value="1758649012691" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/lint_vital_report_lint_model/release/generateReleaseLintVitalReportModel/release.xml" value="1758649012691" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/lint_vital_return_value/release/lintVitalReportRelease/return-value-release.txt" value="1758649066113" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" value="1758666144887" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" value="1758677123511" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/release/parseReleaseLocalResources/R-def.txt" value="1758648986434" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt" value="1758666144956" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt" value="1758677123627" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/release/processReleaseMainManifest/manifest-merger-blame-release-report.txt" value="1758648986491" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_art_profile/release/mergeReleaseArtProfile/baseline-prof.txt" value="1758649006612" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml" value="1758666144955" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml" value="1758677123627" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_manifest/release/processReleaseMainManifest/AndroidManifest.xml" value="1758648986490" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/processDebugManifest/AndroidManifest.xml" value="1758666144977" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/processDebugManifest/output-metadata.json" value="1758666144978" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/processDebugManifest/AndroidManifest.xml" value="1758677123728" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/processDebugManifest/output-metadata.json" value="1758677123730" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_manifests/release/processReleaseManifest/AndroidManifest.xml" value="1758648986515" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_manifests/release/processReleaseManifest/output-metadata.json" value="1758648986516" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/mergeDebugResources.json" value="1758666144553" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/mergeDebugResources.json" value="1758677123103" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-af.json" value="1758655098688" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-am.json" value="1758655098746" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ar.json" value="1758655098673" />
@@ -635,8 +641,8 @@
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rHK.json" value="1758655098700" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rTW.json" value="1758655098707" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zu.json" value="1758655098715" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values.json" value="1758666144538" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json" value="1758666144554" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values.json" value="1758677123082" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json" value="1758677123105" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/multi-v2/mergeReleaseResources.json" value="1758648986110" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/multi-v2/values-af.json" value="1758648986045" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/multi-v2/values-am.json" value="1758648986118" />
@@ -729,11 +735,11 @@
         <entry key="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/single/mergeReleaseResources.json" value="1758648986119" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json" value="1758655099208" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/navigation_json/release/extractDeepLinksRelease/navigation.json" value="1758648986422" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt" value="1758666144062" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt" value="1758677122467" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/nested_resources_validation_report/release/generateReleaseResources/nestedResourcesValidationReport.txt" value="1758648985097" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/optimized_processed_res/release/optimizeReleaseResources/output-metadata.json" value="1758649008707" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/AndroidManifest.xml" value="1758666144986" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/output-metadata.json" value="1758666144993" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/AndroidManifest.xml" value="1758677123745" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/output-metadata.json" value="1758677123932" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/release/processReleaseManifestForPackage/AndroidManifest.xml" value="1758648986524" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/release/processReleaseManifestForPackage/output-metadata.json" value="1758649007272" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/drawable/ic_launcher_background.xml" value="1758563437262" />
@@ -742,9 +748,11 @@
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/mipmap-anydpi-v26/ic_launcher_round.xml" value="1758563437297" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/mipmap-anydpi-v26/ic_memorize.xml" value="1758666061486" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/mipmap-anydpi-v26/ic_memorize_round.xml" value="1758666061402" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/mipmap-anydpi-v26/icon_memorize.xml" value="1758669136622" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/mipmap-anydpi-v26/icon_memorize_round.xml" value="1758669136625" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/mipmap-anydpi-v26/iconapp.xml" value="1758643918442" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/mipmap-anydpi-v26/iconapp_round.xml" value="1758643918589" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml" value="1758666144788" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml" value="1758677123342" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/xml/backup_rules.xml" value="1758563437359" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/xml/data_extraction_rules.xml" value="1758563437369" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/release/packageReleaseResources/drawable/ic_launcher_background.xml" value="1758563437262" />
@@ -756,21 +764,21 @@
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/release/packageReleaseResources/values/values.xml" value="1758648986291" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/release/packageReleaseResources/xml/backup_rules.xml" value="1758563437359" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/release/packageReleaseResources/xml/data_extraction_rules.xml" value="1758563437369" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" value="1758666145803" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" value="1758677124783" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/release/processReleaseResources/R.txt" value="1758649007805" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/signing_config_versions/debug/writeDebugSigningConfigVersions/signing-config-versions.json" value="1758655101012" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/signing_config_versions/release/writeReleaseSigningConfigVersions/signing-config-versions.json" value="1758649007267" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt" value="1758666144056" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt" value="1758677122454" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/source_set_path_map/release/mapReleaseSourceSetPaths/file-map.txt" value="1758648985087" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" value="1758666145783" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" value="1758677124764" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/release/processReleaseResources/stableIds.txt" value="1758649007783" />
-        <entry key="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" value="1758666145965" />
+        <entry key="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" value="1758677124902" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/release/processReleaseResources/package-aware-r.txt" value="1758649007979" />
         <entry key="$PROJECT_DIR$/app/build/intermediates/version_control_info_file/release/extractReleaseVersionControlInfo/version-control-info.textproto" value="1758649006867" />
-        <entry key="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" value="1758665549643" />
+        <entry key="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" value="1758679911738" />
         <entry key="$PROJECT_DIR$/app/build/kotlin/compileReleaseKotlin/cacheable/caches-jvm/lookups/counters.tab" value="1758649010137" />
         <entry key="$PROJECT_DIR$/app/build/kotlinToolingMetadata/kotlin-tooling-metadata.json" value="1758648985027" />
-        <entry key="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" value="1758666144954" />
+        <entry key="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" value="1758677123625" />
         <entry key="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-release-report.txt" value="1758648986488" />
         <entry key="$PROJECT_DIR$/app/build/outputs/sdk-dependencies/release/sdkDependencies.txt" value="1758649007207" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/shultetable/Cell.class" value="1758643071400" />
@@ -930,35 +938,35 @@
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/shultetable/vk_admob/VkAdMobKt$loadAndShowInterstitialAd$1.class" value="1758645627374" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/shultetable/vk_admob/VkAdMobKt$loadAndShowInterstitialAdWithCallback$1.class" value="1758645627375" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/shultetable/vk_admob/VkAdMobKt.class" value="1758645627373" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$MainActivityKt$lambda-1$1.class" value="1758665476180" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$MainActivityKt$lambda-2$1.class" value="1758665476181" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$MainActivityKt$lambda-1$1.class" value="1758679911633" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$MainActivityKt$lambda-2$1.class" value="1758679911634" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$MainActivityKt$lambda-3$1.class" value="1758664827351" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$MainActivityKt$lambda-4$1.class" value="1758664827353" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$MainActivityKt$lambda-5$1.class" value="1758657635250" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$MainActivityKt.class" value="1758665476179" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-1$1.class" value="1758665549572" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-2$1.class" value="1758665549572" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-3$1.class" value="1758665549573" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-4$1.class" value="1758665549574" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-5$1.class" value="1758665549574" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-6$1.class" value="1758665549574" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-7$1.class" value="1758665549575" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-8$1.class" value="1758665549575" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt.class" value="1758665549572" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$1$1$1$1$1.class" value="1758665476179" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$1$1$1$1.class" value="1758665476178" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$MainActivityKt.class" value="1758679911633" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-1$1.class" value="1758679911644" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-2$1.class" value="1758679911644" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-3$1.class" value="1758679911646" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-4$1.class" value="1758679911646" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-5$1.class" value="1758679911647" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-6$1.class" value="1758679911647" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-7$1.class" value="1758679911648" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt$lambda-8$1.class" value="1758679911648" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ComposableSingletons$SettingsActivityKt.class" value="1758679911644" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$1$1$1$1$1.class" value="1758679911632" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$1$1$1$1.class" value="1758679911632" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$1$1$1.class" value="1758656312983" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$1$invoke$$inlined$map$1$2$1.class" value="1758657848229" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$1$invoke$$inlined$map$1$2.class" value="1758657848228" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$1$invoke$$inlined$map$1.class" value="1758657848228" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$1.class" value="1758665476178" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$invoke$$inlined$map$1$2$1.class" value="1758665476178" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$invoke$$inlined$map$1$2.class" value="1758665476177" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$invoke$$inlined$map$1.class" value="1758665476176" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1.class" value="1758665476169" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity.class" value="1758665476169" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$1$1.class" value="1758665476182" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$2$1.class" value="1758665476182" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$1.class" value="1758679911631" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$invoke$$inlined$map$1$2$1.class" value="1758679911630" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$invoke$$inlined$map$1$2.class" value="1758679911630" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1$invoke$$inlined$map$1.class" value="1758679911629" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity$onCreate$1.class" value="1758679911629" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivity.class" value="1758679911627" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$1$1.class" value="1758679911634" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$2$1.class" value="1758679911635" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$1$1$2.class" value="1758664827359" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$1$2.class" value="1758664827361" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$1$4.class" value="1758664827363" />
@@ -968,16 +976,17 @@
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$1$6$1$3.class" value="1758659611133" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$1$6$1$4.class" value="1758659611133" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$1$6.class" value="1758662662502" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$1.class" value="1758665476183" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$1.class" value="1758679911635" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$invoke$lambda$19$lambda$18$lambda$17$$inlined$items$default$1.class" value="1758659611129" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$invoke$lambda$19$lambda$18$lambda$17$$inlined$items$default$2.class" value="1758659611130" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$invoke$lambda$19$lambda$18$lambda$17$$inlined$items$default$3.class" value="1758659611130" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$invoke$lambda$19$lambda$18$lambda$17$$inlined$items$default$4.class" value="1758659611131" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3$invoke$lambda$19$lambda$18$lambda$17$$inlined$items$default$5.class" value="1758659611131" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$3.class" value="1758664827357" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$1$2.class" value="1758665476210" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$1$4.class" value="1758665476211" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$1$2.class" value="1758679911637" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$1$4.class" value="1758679911637" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$2.class" value="1758665476211" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$3.class" value="1758679911638" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$4$1$1$2.class" value="1758657389151" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$4$1$1.class" value="1758658743782" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$4$1$2.class" value="1758658743782" />
@@ -985,69 +994,71 @@
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$4$1$4.class" value="1758658743783" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$4.class" value="1758665476212" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$5$2.class" value="1758665476213" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$5.class" value="1758679911638" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1$6$2.class" value="1758679911639" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4$1.class" value="1758656651224" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4.class" value="1758665476209" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$4.class" value="1758679911636" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$5$1$1$2.class" value="1758656651225" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$5$1$1$4.class" value="1758656651226" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$5$1$2.class" value="1758656651226" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$5$1$5$1$2.class" value="1758656651227" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$5$1$5.class" value="1758656651227" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt$TableMemoryApp$5.class" value="1758656651225" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt.class" value="1758665476181" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$1$1$1$1$1.class" value="1758665549571" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$1$1$1$1.class" value="1758665549570" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$1.class" value="1758665549570" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$invoke$$inlined$map$1$2$1.class" value="1758665549569" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$invoke$$inlined$map$1$2.class" value="1758665549569" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$invoke$$inlined$map$1.class" value="1758665549568" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1.class" value="1758665549568" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$initialDarkTheme$1.class" value="1758665549567" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity.class" value="1758665549566" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$DropdownSetting$1$3$1$1.class" value="1758665549589" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$DropdownSetting$1$3.class" value="1758665549588" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$1$1.class" value="1758665549577" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$2$1.class" value="1758665549578" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$2$2$2.class" value="1758665549579" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$2$2.class" value="1758665549578" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$2.class" value="1758665549577" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$1$1.class" value="1758665549580" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$1.class" value="1758665549580" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/MainActivityKt.class" value="1758679911634" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$1$1$1$1$1.class" value="1758679911643" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$1$1$1$1.class" value="1758679911643" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$1.class" value="1758679911642" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$invoke$$inlined$map$1$2$1.class" value="1758679911642" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$invoke$$inlined$map$1$2.class" value="1758679911641" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1$invoke$$inlined$map$1.class" value="1758679911641" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$1.class" value="1758679911640" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity$onCreate$initialDarkTheme$1.class" value="1758679911640" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivity.class" value="1758679911639" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$DropdownSetting$1$3$1$1.class" value="1758679911662" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$DropdownSetting$1$3.class" value="1758679911662" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$1$1.class" value="1758679911649" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$2$1.class" value="1758679911650" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$2$2$2.class" value="1758679911651" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$2$2.class" value="1758679911651" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$2.class" value="1758679911650" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$1$1.class" value="1758679911653" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$1.class" value="1758679911652" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$10$1.class" value="1758655112542" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$10.class" value="1758655112542" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$11$1.class" value="1758655112543" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$11.class" value="1758655112542" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$2$1.class" value="1758665549581" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$2.class" value="1758665549581" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$3$1.class" value="1758665549582" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$3.class" value="1758665549582" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$4$1.class" value="1758665549583" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$4.class" value="1758665549583" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$5$1.class" value="1758665549584" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$5.class" value="1758665549584" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$6$1.class" value="1758665549585" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$6.class" value="1758665549585" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$7$1.class" value="1758665549586" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$7.class" value="1758665549586" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$8$1.class" value="1758665549587" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$8.class" value="1758665549587" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$9$1.class" value="1758665549588" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$9.class" value="1758665549587" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3.class" value="1758665549579" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$save$1$1.class" value="1758665549590" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$save$1.class" value="1758665549589" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$saveBool$1$1.class" value="1758665549591" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$saveBool$1.class" value="1758665549591" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$saveMixed$1$1.class" value="1758665549592" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$saveMixed$1.class" value="1758665549591" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt.class" value="1758665549576" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsDataStoreKt.class" value="1758655622049" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsKeys.class" value="1758655622046" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsRepository$save$2.class" value="1758655622048" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsRepository$special$$inlined$map$1$2$1.class" value="1758655622048" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsRepository$special$$inlined$map$1$2.class" value="1758655622047" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsRepository$special$$inlined$map$1.class" value="1758655622047" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsRepository.class" value="1758655622046" />
-        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsState.class" value="1758655622049" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$2$1.class" value="1758679911654" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$2.class" value="1758679911653" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$3$1.class" value="1758679911655" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$3.class" value="1758679911654" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$4$1.class" value="1758679911656" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$4.class" value="1758679911655" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$5$1.class" value="1758679911657" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$5.class" value="1758679911656" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$6$1.class" value="1758679911658" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$6.class" value="1758679911658" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$7$1.class" value="1758679911659" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$7.class" value="1758679911658" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$8$1.class" value="1758679911659" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$8.class" value="1758679911659" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$9$1.class" value="1758679911661" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3$1$1$9.class" value="1758679911661" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$3.class" value="1758679911652" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$save$1$1.class" value="1758679911663" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$save$1.class" value="1758679911663" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$saveBool$1$1.class" value="1758679911664" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$saveBool$1.class" value="1758679911664" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$saveMixed$1$1.class" value="1758679911665" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt$SettingsScreen$saveMixed$1.class" value="1758679911664" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/SettingsActivityKt.class" value="1758679911649" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsDataStoreKt.class" value="1758679911669" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsKeys.class" value="1758679911665" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsRepository$save$2.class" value="1758679911668" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsRepository$special$$inlined$map$1$2$1.class" value="1758679911668" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsRepository$special$$inlined$map$1$2.class" value="1758679911666" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsRepository$special$$inlined$map$1.class" value="1758679911666" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsRepository.class" value="1758679911666" />
+        <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/store/SettingsState.class" value="1758679911669" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ui/theme/ColorFamily.class" value="1758655112554" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ui/theme/ColorKt.class" value="1758655112554" />
         <entry key="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/raf/console/tablememory/ui/theme/ThemeKt.class" value="1758655112554" />
@@ -1168,9 +1179,9 @@
         <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/shultetable/ui/theme/Theme.kt" value="1758627983199" />
         <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/shultetable/ui/theme/Type.kt" value="1758563437537" />
         <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/shultetable/vk_admob/VkAdMob.kt" value="1758645365067" />
-        <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/tablememory/MainActivity.kt" value="1758665475057" />
-        <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/tablememory/SettingsActivity.kt" value="1758665548633" />
-        <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/tablememory/store/SettingsDataStore.kt" value="1758655619501" />
+        <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/tablememory/MainActivity.kt" value="1758679880028" />
+        <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/tablememory/SettingsActivity.kt" value="1758679880033" />
+        <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/tablememory/store/SettingsDataStore.kt" value="1758679880040" />
         <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/tablememory/ui/theme/Color.kt" value="1758654239056" />
         <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/tablememory/ui/theme/Theme.kt" value="1758654446144" />
         <entry key="$PROJECT_DIR$/app/src/main/java/raf/console/tablememory/ui/theme/Type.kt" value="1758654239092" />
@@ -1202,14 +1213,14 @@
         <entry key="$PROJECT_DIR$/gradlew.bat" value="1758563435941" />
         <entry key="$PROJECT_DIR$/local.properties" value="1758563435866" />
         <entry key="$PROJECT_DIR$/settings.gradle.kts" value="1758654139704" />
-        <entry key="$PROJECT_DIR$/../TactileMeet/.idea/codemarks.xml" value="1758669635312" />
+        <entry key="$PROJECT_DIR$/../TactileMeet/.idea/codemarks.xml" value="1758679966101" />
         <entry key="$PROJECT_DIR$/../TactileMeet/.idea/codemarks.xml~" value="1758566130420" />
         <entry key="$PROJECT_DIR$/../TactileMeet/.idea/misc.xml" value="1758620967789" />
         <entry key="$PROJECT_DIR$/../TactileMeet/.idea/workspace.xml" value="1758647816150" />
         <entry key="$USER_HOME$/AppData/Local/Google/AndroidStudio2025.1.3/projects/tablememory.3fa7bf81/cache-state.xml" value="1758655014497" />
         <entry key="$USER_HOME$/AppData/Local/Google/AndroidStudio2025.1.3/projects/tableshulte.4a12b19d/cache-state.xml" value="1758565001176" />
-        <entry key="$APPLICATION_CONFIG_DIR$/workspace/32ArY9Rqi8H9oaM2BiYEjNOs4jZ.xml" value="1758669331732" />
-        <entry key="$APPLICATION_CONFIG_DIR$/workspace/3345JxLtUpZBKz8Y19PLUH6z3sL.xml" value="1758669613428" />
+        <entry key="$APPLICATION_CONFIG_DIR$/workspace/32ArY9Rqi8H9oaM2BiYEjNOs4jZ.xml" value="1758678652303" />
+        <entry key="$APPLICATION_CONFIG_DIR$/workspace/3345JxLtUpZBKz8Y19PLUH6z3sL.xml" value="1758679748268" />
       </map>
     </option>
   </component>

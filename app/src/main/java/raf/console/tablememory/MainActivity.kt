@@ -10,6 +10,7 @@ import android.os.Bundle
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.os.VibratorManager
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.BorderStroke
@@ -57,7 +58,7 @@ class MainActivity : ComponentActivity() {
             val settingsFlow = context.dataStore.data.map { prefs: Preferences ->
                 SettingsState(
                     tableSize = prefs[SettingsKeys.TABLE_SIZE] ?: "5x5",
-                    tableMode = prefs[SettingsKeys.TABLE_MODE] ?: "Числа",
+                    tableMode = prefs[SettingsKeys.TABLE_MODE] ?: "Цифры",
                     tableStyle = prefs[SettingsKeys.TABLE_STYLE] ?: "Классический",
                     language = prefs[SettingsKeys.LANGUAGE] ?: "Русский",
                     shuffleOnClick = prefs[SettingsKeys.SHUFFLE_ON_CLICK] ?: false,
@@ -79,7 +80,7 @@ class MainActivity : ComponentActivity() {
             val settings by settingsFlow.collectAsState(
                 initial = SettingsState(
                     tableSize = "5x5",
-                    tableMode = "Числа",
+                    tableMode = "Цифры",
                     tableStyle = "Классический",
                     language = "Русский",
                     shuffleOnClick = false,
@@ -215,7 +216,7 @@ fun TableMemoryApp(
         listOf("1","2","3","4","5","6","7","8","9","0")
 
     fun buildKeyboard(): List<String> =
-        if (tableMode.startsWith("Числа")) buildDigitKeyboard() else buildLetterKeyboard()
+        if (tableMode.startsWith("Цифры")) buildDigitKeyboard() else buildLetterKeyboard()
 
     fun generateGridFromSymbols(n: Int, pool: List<String>): List<String> {
         val total = n * n
@@ -272,87 +273,120 @@ fun TableMemoryApp(
 
             Spacer(Modifier.height(8.dp))
 
-            // --- Таблица ---
-            BoxWithConstraints(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .weight(1f),
-                contentAlignment = Alignment.Center
-            ) {
-                val areaW = maxWidth
-                val areaH = maxHeight
-                val stroke = 1.dp
-                val rawCell = (minOf(areaW, areaH) / tableSize)
-                val cellSize = (rawCell - stroke).coerceAtLeast(10.dp)
-                val fontSp = (cellSize.value * 0.42f).coerceIn(10f, 24f).sp
+            if (!memorizeVisible && !isInputRunning && !finished) {
+                // Инструкция (до старта)
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .weight(1f),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Text(
+                        text = "Вам будет показана таблица.\n" +
+                                "Запомните её и воспроизведите\n" +
+                                "с помощью клавиатуры ниже.",
+                        fontSize = 20.sp,
+                        color = colors.onBackground,
+                        textAlign = TextAlign.Center,
+                        lineHeight = 28.sp,
+                        modifier = Modifier.padding(16.dp)
+                    )
+                }
+            } else {
+                // --- Таблица ---
+                BoxWithConstraints(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .weight(1f),
+                    contentAlignment = Alignment.Center
+                ) {
+                    val areaW = maxWidth
+                    val areaH = maxHeight
+                    val stroke = 1.dp
+                    val rawCell = (minOf(areaW, areaH) / tableSize)
+                    val cellSize = (rawCell - stroke).coerceAtLeast(10.dp)
+                    val fontSp = (cellSize.value * 0.42f).coerceIn(10f, 24f).sp
 
-                val isOdd = tableSize % 2 == 1
+                    val isOdd = tableSize % 2 == 1
 
-                Column {
-                    grid.chunked(tableSize).forEachIndexed { r, row ->
-                        Row {
-                            row.forEachIndexed { c, value ->
-                                val idx = r * tableSize + c
-                                val isCorrect = userGrid.getOrNull(idx) == value
+                    Column {
+                        grid.chunked(tableSize).forEachIndexed { r, row ->
+                            Row {
+                                row.forEachIndexed { c, value ->
+                                    val idx = r * tableSize + c
+                                    val isCorrect = userGrid.getOrNull(idx) == value
 
-                                Box(
-                                    contentAlignment = Alignment.Center,
-                                    modifier = Modifier
-                                        .size(cellSize)
-                                        .border(
-                                            BorderStroke(
-                                                1.dp,
+                                    Box(
+                                        contentAlignment = Alignment.Center,
+                                        modifier = Modifier
+                                            .size(cellSize)
+                                            .border(
+                                                BorderStroke(
+                                                    1.dp,
+                                                    when {
+                                                        finished && !showCorrect && isCorrect -> Color.Green
+                                                        finished && !showCorrect && (userGrid.getOrNull(
+                                                            idx
+                                                        )
+                                                            ?.isNotBlank() == true) && !isCorrect -> Color.Red
+
+                                                        else -> colors.outline
+                                                    }
+                                                )
+                                            )
+                                            .background(
                                                 when {
-                                                    finished && !showCorrect && isCorrect -> Color.Green
-                                                    finished && !showCorrect && (userGrid.getOrNull(idx)?.isNotBlank() == true) && !isCorrect -> Color.Red
-                                                    else -> colors.outline
+                                                    finished && !showCorrect && isCorrect ->
+                                                        Color.Green.copy(alpha = 0.2f)
+
+                                                    finished && !showCorrect &&
+                                                            (userGrid.getOrNull(idx)
+                                                                ?.isNotBlank() == true) && !isCorrect ->
+                                                        Color.Red.copy(alpha = 0.2f)
+
+                                                    !memorizeVisible && isInputRunning && idx == currentIndex ->
+                                                        colors.surfaceVariant
+
+                                                    else -> Color.Transparent
                                                 }
                                             )
-                                        )
-                                        .background(
-                                            when {
-                                                finished && !showCorrect && isCorrect ->
-                                                    Color.Green.copy(alpha = 0.2f)
-                                                finished && !showCorrect &&
-                                                        (userGrid.getOrNull(idx)?.isNotBlank() == true) && !isCorrect ->
-                                                    Color.Red.copy(alpha = 0.2f)
-                                                !memorizeVisible && isInputRunning && idx == currentIndex ->
-                                                    colors.surfaceVariant
-                                                else -> Color.Transparent
+                                    ) {
+                                        when {
+                                            // фаза показа либо просмотр правильного варианта
+                                            memorizeVisible || (finished && showCorrect) -> {
+                                                Text(
+                                                    text = value,
+                                                    fontSize = fontSp,
+                                                    color = colors.onSurface,
+                                                    textAlign = TextAlign.Center,
+                                                    maxLines = 1
+                                                )
                                             }
-                                        )
-                                ) {
-                                    when {
-                                        // фаза показа либо просмотр правильного варианта
-                                        memorizeVisible || (finished && showCorrect) -> {
-                                            Text(
-                                                text = value,
-                                                fontSize = fontSp,
-                                                color = colors.onSurface,
-                                                textAlign = TextAlign.Center,
-                                                maxLines = 1
-                                            )
-                                        }
-                                        // фаза ввода или просмотр моих ответов
-                                        isInputRunning || finished -> {
-                                            Text(
-                                                text = userGrid.getOrNull(idx).orEmpty(),
-                                                fontSize = fontSp,
-                                                color = colors.onSurface,
-                                                textAlign = TextAlign.Center,
-                                                maxLines = 1
-                                            )
-                                        }
-                                        else -> Unit
-                                    }
+                                            // фаза ввода или просмотр моих ответов
+                                            isInputRunning || finished -> {
+                                                Text(
+                                                    text = userGrid.getOrNull(idx).orEmpty(),
+                                                    fontSize = fontSp,
+                                                    color = colors.onSurface,
+                                                    textAlign = TextAlign.Center,
+                                                    maxLines = 1
+                                                )
+                                            }
 
-                                    // Точка в центре (для нечётной — в центральной ячейке)
-                                    if (centerDot && isOdd && r == tableSize / 2 && c == tableSize / 2) {
-                                        Box(
-                                            modifier = Modifier
-                                                .size((cellSize * 0.18f).coerceAtLeast(6.dp))
-                                                .background(Color.Red.copy(alpha = 0.5f), CircleShape)
-                                        )
+                                            else -> Unit
+                                        }
+
+                                        // Точка в центре (для нечётной — в центральной ячейке)
+                                        if (centerDot && isOdd && r == tableSize / 2 && c == tableSize / 2) {
+                                            Box(
+                                                modifier = Modifier
+                                                    .size((cellSize * 0.18f).coerceAtLeast(6.dp))
+                                                    .background(
+                                                        Color.Red.copy(alpha = 0.5f),
+                                                        CircleShape
+                                                    )
+                                            )
+                                        }
                                     }
                                 }
                             }
@@ -453,7 +487,7 @@ fun TableMemoryApp(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    if (tableMode.startsWith("Числа")) {
+                    if (tableMode.startsWith("Цифры")) {
                         // Ряды: 1 2 3 / 4 5 6 / 7 8 9 / 0 ⌫ ⏮ ⏭
                         @Composable
                         fun digitKey(label: String, onClick: () -> Unit) {
@@ -546,9 +580,9 @@ fun TableMemoryApp(
                                             if (currentIndex < userGrid.lastIndex) currentIndex++
                                         },
                                         modifier = Modifier
-                                            .padding(4.dp)
-                                            .height(48.dp)
-                                            .width(48.dp),
+                                            .weight(1f)   // каждая кнопка занимает равную долю строки
+                                            .aspectRatio(1f) // квадратная форма
+                                            .padding(4.dp),
                                         darkTheme = darkTheme
                                     )
                                 }
@@ -625,9 +659,9 @@ fun TableMemoryApp(
 ): List<String> {
     val total = n * n
     return when {
-        // если режим числа и размер от 4х4 до 15х15 → цифры (0-9) с повторами
-        mode.startsWith("Числа") && n in 4..15 -> List(total) { ('0'..'9').random().toString() }
-        mode.startsWith("Числа") -> (1..total).map { it.toString() }.shuffled()
+        // если режим Цифры и размер от 4х4 до 15х15 → цифры (0-9) с повторами
+        mode.startsWith("Цифры") && n in 4..15 -> List(total) { ('0'..'9').random().toString() }
+        mode.startsWith("Цифры") -> (1..total).map { it.toString() }.shuffled()
         mode == "Смесь букв разных алфавитов" -> {
             val combined = mixed.flatMap { getAlphabet(it) }.ifEmpty { getAlphabet("English") }
             if (combined.size >= total) combined.shuffled().take(total)
@@ -649,7 +683,7 @@ fun generateGrid(
     val count = size * size
 
     return when {
-        mode.startsWith("Числа") -> {
+        mode.startsWith("Цифры") -> {
             // 🔹 всегда цифры 0–9
             List(count) { (0..9).random().toString() }
         }
@@ -680,7 +714,7 @@ fun getKeyboardSymbols(
     mixedAlphabets: Set<String>
 ): List<String> {
     return when {
-        tableMode.startsWith("Числа") -> {
+        tableMode.startsWith("Цифры") -> {
             // фиксированная клавиатура цифр
             listOf("1","2","3","4","5","6","7","8","9","0")
         }
@@ -722,7 +756,7 @@ fun generateGridFromSymbols(tableSize: Int, symbols: List<String>): List<String>
 ): List<String> {
     val total = n * n
     return when (mode) {
-        "Числа", "Числа (обратный порядок)" ->
+        "Цифры", "Цифры (обратный порядок)" ->
             (1..total).map { it.toString() }.shuffled()
 
         "Смесь букв разных алфавитов" -> {
@@ -860,3 +894,4 @@ fun KeyButton(
         )
     }
 }
+

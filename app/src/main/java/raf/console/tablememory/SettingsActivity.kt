@@ -74,7 +74,7 @@ fun SettingsScreen(
     val scope = rememberCoroutineScope()
 
     var tableSize by remember { mutableStateOf("5x5") }
-    var tableMode by remember { mutableStateOf("Числа") }
+    var tableMode by remember { mutableStateOf("Цифры") }
     var tableStyle by remember { mutableStateOf("Классический") }
     var language by remember { mutableStateOf("Русский") }
     var shuffleOnClick by remember { mutableStateOf(false) }
@@ -101,7 +101,7 @@ fun SettingsScreen(
     LaunchedEffect(Unit) {
         val prefs = context.dataStore.data.first()
         tableSize = prefs[SettingsKeys.TABLE_SIZE] ?: "5x5"
-        tableMode = prefs[SettingsKeys.TABLE_MODE] ?: "Числа"
+        tableMode = prefs[SettingsKeys.TABLE_MODE] ?: "Цифры"
         tableStyle = prefs[SettingsKeys.TABLE_STYLE] ?: "Классический"
         language = prefs[SettingsKeys.LANGUAGE] ?: "Русский"
         shuffleOnClick = prefs[SettingsKeys.SHUFFLE_ON_CLICK] ?: false
@@ -157,7 +157,7 @@ fun SettingsScreen(
             modifier = Modifier.fillMaxSize().padding(padding)
         ) {
             // --- таблица
-            item { VKBannerAd(1912224) }
+            item { VKBannerAd(1912287) }
             item { Section("Таблица") }
             item { SettingWrapper {
                 DropdownSetting("Размер таблицы", tableSize, (3..15).map { "${it}x$it" }) {
@@ -168,7 +168,7 @@ fun SettingsScreen(
                 DropdownSetting(
                     "Режим таблицы",
                     tableMode,
-                    listOf("Числа","Буквы","Смесь букв разных алфавитов")
+                    listOf("Цифры","Буквы","Смесь букв разных алфавитов")
                 ) {
                     tableMode = it; save(SettingsKeys.TABLE_MODE, it)
                 }
@@ -215,7 +215,7 @@ fun SettingsScreen(
                     DropdownSetting(
                         "Время показа (секунды)",
                         memoryTime,
-                        (5..60 step 5).map { it.toString() }
+                        (5..300 step 5).map { it.toString() }
                     ) {
                         memoryTime = it
                         save(SettingsKeys.MEMORY_TIME, it)
@@ -232,7 +232,7 @@ fun SettingsScreen(
             }
 
             // --- управление
-            item { VKBannerAd(1912213) }
+            item { VKBannerAd(1912290) }
             /*item { Section("Управление") }
             */
 
@@ -275,7 +275,7 @@ fun SettingsScreen(
                 }
             }
 
-            item { VKBannerAd(1912216) }
+            item { VKBannerAd(1912293) }
         }
     }
 }
